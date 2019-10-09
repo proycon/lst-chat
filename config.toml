@@ -1,5 +1,5 @@
-baseurl = "https://example.org/"
-languageCode = "en-us"
+baseurl = "https://cls.ru.nl/chat/"
+languageCode = "nl-nl"
 title = "Language & Speech Technology Chat"
 theme = "creative-theme"
 googleAnalytics = ""
@@ -47,7 +47,7 @@ googleAnalytics = ""
 
 	[params.about]
 		headline    = "Doe mee!"
-		description = "Iedereen kan meedoen, je kan rechstreeks vanuit je browser verbinding maken, of je favoriete chatprogramma gebruiken (zie onder). Je hoeft je nergens voor aan te melden."
+		description = "Iedereen kan meedoen, je kan rechstreeks vanuit je browser verbinding maken, of je favoriete chatprogramma gebruiken (zie onder). Je hoeft je nergens voor aan te melden en bij het maken van de verbinding alleen maar een nickname in te vullen."
 		buttonText  = "Maak verbinding met de chat!"
         buttonLink = "https://kiwiirc.com/nextclient/irc.uvt.nl/#lst"
 
