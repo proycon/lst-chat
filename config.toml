@@ -1,0 +1,106 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Language & Speech Technology Chat"
+theme = "creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Language & Speech Technology Chat"
+	description = "A community of dutch & flemish NLP researchers"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Language & Speech Technology Chat"
+
+		[params.navigation.links]
+			about  = "Doe mee!"
+			services  = "Details"
+			#portfolio = "Portfolio"
+			#contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Chat mee met collega's in NLP!"
+		subtitle   = "We bieden een levendig en informeel chatkanaal om in contact te komen met collega's bezig met natuurlijke taalverwerking. Omdat we vaak verspreid zijn over verschillende kantoren, universiteiten, treinen, thuiswerkplekken of andere locaties, biedt de chat een platform om snel en makkelijk met elkaar in contact te treden."
+		buttonText = "Doe mee!"
+
+	[params.about]
+		headline    = "Doe mee!"
+		description = "Iedereen kan meedoen, je kan rechstreeks vanuit je browser verbinding maken, of je favoriete chatprogramma gebruiken (zie onder). Je hoeft je nergens voor aan te melden."
+		buttonText  = "Maak verbinding met de chat!"
+        buttonLink = "https://kiwiirc.com/nextclient/irc.uvt.nl/#lst"
+
+
+	# Service section
+	[params.services]
+		headline = "Details"
+
+        [[params.services.list]]
+            icon = "fa-hashtag"
+            title = "IRC"
+            description = "Je kan ons vinden op het kanaal ``#lst`` op de IRC server ``irc.uvt.nl``. IRC is een oud en open chat protocol waarvoor [veel software](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) beschikbaar is, zoals bijvoorbeeld [HexChat](https://hexchat.github.io/) (Linux/windows), [Colloquy](http://colloquy.info/) (macOS). We kiezen voor deze oplossing als tegenwicht tegen gecentraliseerde en commerciële oplossingen zoals Slack."
+
+        [[params.services.list]]
+			icon = "fa-glass"
+			title = "Informele sfeer"
+			description = "Onze chat heeft een informele sfeer en een gezonde dosis humor. Er wordt voornamelijk Nederlands maar ook af en toe Engels gesproken."
+
+		[[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Motivatie & Oorsprong"
+            description = "Met deze chat hopen we collega's van verschillende NLP onderzoeksgroepen en universiteiten samen te brengen, vooral naarmate collega's zich in de tijd over verschillende instituten verspreiden. De chat heeft zijn wortels in de ILK onderzoeksgroep van de Universiteit van Tilburg en de [Language Machines](https://lamas.science.ru.nl) groep van de **Radboud Universiteit, Nijmegen**."
+
+        [[params.services.list]]
+            icon = "fa-android"
+            title = "f00f"
+            description = "f00f is de huisrobot, ontwikkeld door Wessel Dankers. Hij zegt en reageert op het één en ander en moet vooral niet te serieus genomen worden. Typ ``!help`` in de chat voor meer informatie."
+
+
+	[params.aside]
+		headline = "Chat mee!"
+
+		[params.aside.button]
+			text = "Maak verbinding met de chat"
+			link = "https://kiwiirc.com/nextclient/irc.uvt.nl/#lst"
+
+    # Portfolio modals
+	#[params.portfolio.modal]
+    #    client = "Client"
+    #    date = "Date"
+    #    category = "Category"
+    #    buttonText = "Close"
+
+
+	# Contact section
+	#[params.contact]
+	#	headline = "Let's Get In Touch!"
+	#	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+	#	phone = "123-456-6789"
+	#	email = "feedback@startbootstrap.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
